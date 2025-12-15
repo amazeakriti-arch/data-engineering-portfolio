@@ -1,0 +1,7 @@
+id,name,salary,Department,Experience,Location,Experience_level,salary_lakhs
+1,Riya,50000,Data,3,chennai,Mid,0.5
+2,Amit,60000,IT,5,pune,Mid,0.6
+3,Sneha,55000,HR,2,pune,Mid,0.55
+4,Kiara,85000,HR,5,delhi,Mid,0.85
+5,Meena,73000,CS,6,nagpur,Senior,0.73
+6,Juhi,80000,Data,6,delhi,Senior,0.8
