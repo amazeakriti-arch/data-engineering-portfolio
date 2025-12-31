@@ -10,4 +10,4 @@
 - Pandas
 - REST APIs
 - SQLAlchemy
-- SQLite (DB)
+- Oracle (DB)
