@@ -2,7 +2,7 @@ import pandas as pd
 from config import ENGINE
 
 def extract_data():
-    query = "SELECT * FROM fin_rep"
+    query = "SELECT * FROM student_report"
     df = pd.read_sql(query, ENGINE)
     return df
 
