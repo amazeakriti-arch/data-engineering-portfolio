@@ -1,16 +1,19 @@
-Objective:
-Build a cloud-based ETL pipeline using AWS S3 and Python.
+## Week 5 – Serverless AWS ETL Pipeline
 
-Tech Stack:
-- Python
-- Pandas
+### Tech Stack
 - AWS S3
-- boto3
-- Oracle Database
-- SQLAlchemy
+- AWS Lambda
+- Python (boto3)
+- AWS CLI
 
-Pipeline:
-1. Upload data to S3
-2. Read data from S3 using Pandas
-3. Transform data
-4. Load into Oracle
+### Flow
+1. Raw files uploaded to S3
+2. Lambda auto-triggered
+3. Metadata processed
+4. Output written to processed folder
+
+### Key Learnings
+- Serverless architecture
+- S3 versioning
+- Event-driven pipelines
+- Cloud-native ETL design
