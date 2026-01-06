@@ -33,3 +33,20 @@ S3 (Input) → Lambda (ETL) → S3 (Output)
 ## 🧪 Example
 
 ### Input
+
+
+---
+
+## 🚀 How to Run
+1. Upload `input.txt` to S3 bucket under `input/`
+2. Lambda triggers automatically
+3. Check transformed output in `output/`
+
+---
+
+## 🎯 Learning Outcomes
+- Built event-driven ETL using AWS
+- Implemented S3 triggers
+- Used IAM roles and permissions
+- Invoked Lambda from local Python
+
