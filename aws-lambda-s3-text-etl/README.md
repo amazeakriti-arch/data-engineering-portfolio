@@ -25,7 +25,7 @@ S3 (Input) → Lambda (ETL) → S3 (Output)
 1. Upload a text file to `input/` folder in S3
 2. S3 event triggers Lambda
 3. Lambda reads file content
-4. Content is reversed (string transformation)
+4. Converts it to uppercase
 5. Output is written to `output/output.txt`
 
 ---
