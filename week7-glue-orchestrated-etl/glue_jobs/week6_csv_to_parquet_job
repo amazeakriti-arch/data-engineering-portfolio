@@ -1,0 +1,4 @@
+# Reads raw CSV from Glue Catalog
+# Applies schema
+# Runs data quality rules
+# Writes curated Parquet to S3
